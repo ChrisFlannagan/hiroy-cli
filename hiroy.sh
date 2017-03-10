@@ -32,7 +32,7 @@ if [ ! -f tweet.key ]; then
     done < "./api-template.key"
 fi
 
-echo "\n\n${YELLOW}Attempting to say hi to Roy...\n\n"
+echo "Attempting to say hi to Roy...\n\n"
 
 # Need help figuring out oauth in bash to post a tweet... I know there are libraries but I want to keep this light weight
 # and just for posting a tweet right now
